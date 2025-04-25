@@ -36,3 +36,19 @@ console.log(anotherString);//ikaa
 const newStringOne="   Anshika  "
 console.log(newStringOne);
 console.log(newStringOne.trim());//removes extra space
+
+
+
+//Replace
+
+const url="https://anshika.com/anshika%20singh"
+
+
+console.log(url.replace('%20','_'))
+console.log(url.includes('anshika'))//true
+
+
+//Converting string to array
+
+console.log(gameName.split('_'))//array with 3 string
+
