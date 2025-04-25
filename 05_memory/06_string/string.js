@@ -26,3 +26,13 @@ console.log(gameName.IndexOf('s'));//3
 
 const newString = gameName.substring(0,4)//Ansh
 console.log(newString);
+
+
+
+const anotherString=gameName.slice(-8,4)
+console.log(anotherString);//ikaa
+
+
+const newStringOne="   Anshika  "
+console.log(newStringOne);
+console.log(newStringOne.trim());//removes extra space
