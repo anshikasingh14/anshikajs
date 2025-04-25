@@ -25,4 +25,4 @@ console.log(gameName.IndexOf('s'));//3
 
 
 const newString = gameName.substring(0,4)//Ansh
-console.log(newString)
+console.log(newString);
