@@ -1,6 +1,9 @@
 /*
 
 Stack memory(Primitive),Heap Memory(Non-Primitive)
+
+
+in heap whatever changes is made gets reflected in actual value
 */
 let myYoutubename="Anshikadotcom";
 
@@ -13,12 +16,13 @@ console.log(anothername);//anshikasingh
 
 
 let userOne={
-    email:"user@google.com"
-    upi:"user@ybl"
+    email:"user@google.com",
+    upi:"user@ybl",
 }
 
 let userTwo=userOne;
 
 userTwo.email="anshika@google.com";
 
-console.log(userOne.email);
+console.log(userOne.email);//anshika@google.com
+console.log(userTwo.email);//anshika@google.com
